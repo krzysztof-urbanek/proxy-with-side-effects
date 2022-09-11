@@ -1,0 +1,13 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/local_postgresql
+    username: admin
+    password: admin
+    driver-class-name: org.postgresql.Driver
+  flyway:
+    url: jdbc:postgresql://localhost:5432/local_postgresql
+    username: admin
+    password: admin
+    driver-class-name: org.postgresql.Driver
+
+  data.r2dbc.repositories.enabled: true
